@@ -3,9 +3,12 @@
 Website for the **Institute for AI Governance – Security and Risk Management (IAIGSRM)**.
 
 ## Version
-v1.1 — initial public-facing prototype.
+v1.2 — Resources & institutional content release candidate.
 
-## Focus Areas
+## Site Architecture
+Home | About | Five Pillars | Services | Research | Resources | Training | Founder | Contact
+
+## Five Pillars
 1. AI Governance
 2. AI Standards & Assurance
 3. AI Cybersecurity
@@ -15,11 +18,21 @@ v1.1 — initial public-facing prototype.
 ## Engagement Model
 Advise → Design → Deliver → Operate
 
-## Technology
-The v1.1 prototype is intentionally lightweight: semantic HTML5 and responsive CSS, with no external runtime dependencies. This makes it easy to review, version and deploy to Azure Static Web Apps.
+## Resources v1.2
+1. AI Regulation & Policy
+2. History & Evolution of AI
+3. Standards, Frameworks & Technical Resources
+4. IAIGSRM Research & Publications
 
-## Local preview
-Open `index.html` in a browser.
+The Research & Publications area is the future home of the IAIGSRM Tier 1/2/3 AI Threat & Mitigating Control Framework.
+
+## Development Governance — DRAPGA
+Draft → Review → Authorize → Package → Git Push → Azure Deploy → Production Validation
+
+v1.2 passed Draft, Review and Authorize on 2026-09-29.
+
+## Technology
+The site remains intentionally lightweight: semantic HTML5 and responsive CSS, with no external runtime dependencies.
 
 ## Deployment
 Target: Microsoft Azure Static Web Apps via GitHub integration.
